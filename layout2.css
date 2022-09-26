@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+    font-size: 2rem;
+}
+
+header{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+main{
+    background-color: lightgreen;
+    display: flex;
+}
+.Nav{
+    background-color: pink;
+    width: 20%;
+    display: grid;
+    place-items: center;
+}
+.Article{
+    background-color: lightgreen;
+    width: 60%;
+    display: grid;
+    place-items: center;
+}
+.Aside{
+    background-color: palegoldenrod;
+    width: 20%;
+    display: grid;
+    place-items: center;
+}
+footer{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

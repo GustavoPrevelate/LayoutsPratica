@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-areas: 
+    "nav header header"
+    "nav article aside"
+    "nav footer footer";
+}
+
+Nav{
+    grid-area: nav;
+    background-color: plum;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    
+}
+Article{
+    grid-area: article;
+    background-color: lightgreen;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
+Aside{
+    grid-area: aside;
+    background-color: palegoldenrod;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
+header{
+    grid-area: header;
+    background-color: tomato;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    
+}
+footer{
+    grid-area: footer;
+    background-color: slateblue;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}

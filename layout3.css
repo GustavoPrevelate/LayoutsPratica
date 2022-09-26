@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-areas: 
+    "nav header"
+    "nav main"
+    "nav footer";
+}
+
+Nav{
+    grid-area: nav;
+    background-color: plum;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    
+}
+header{
+    grid-area: header;
+    background-color: tomato;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    
+}
+main{
+    grid-area: main;
+    background-color: darkcyan;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
+footer{
+    grid-area: footer;
+    background-color: slateblue;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
